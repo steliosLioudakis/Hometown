@@ -32,6 +32,7 @@ body {
     width: 25%;
 }
 
+
 .logo-crete {
     width: 250px;
     transition: 1000ms;
@@ -40,6 +41,7 @@ body {
 .logo-crete:hover {
     transform: scale(2);
 }
+
 
 .logo-arrow {
     transform: scale(0.5);
@@ -60,8 +62,8 @@ body {
     align-items: center;
     padding-top: 35px;
     position: relative;
-
 }
+
 
 .h1-hero {
     font-size: 3.5rem;
@@ -106,7 +108,15 @@ body {
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
+
 }
+
+.beaches,
+.food,
+.city {
+    width: 350px;
+}
+
 
 .beach-logo,
 .food-logo,
@@ -123,11 +133,11 @@ body {
     transform: scale(1.15);
 }
 
-.beaches,
+/* .beaches,
 .food,
 .city {
-    width: 31%;
-}
+    width: 31%; 
+} */
 
 .beaches p,
 .food p,
@@ -154,7 +164,7 @@ body {
 }
 
 
-/* ---Back to top settigs--- */
+/* ---Back to top, settigs--- */
 
 .back-to-top {
     text-decoration: none;
@@ -171,4 +181,78 @@ body {
     box-shadow: inset 120px 0 0 0 rgb(203, 253, 236);
     color: rgb(0, 0, 0);
     font-weight: 900;
+}
+
+/* -----@media------- */
+
+@media (max-width: 725px) {
+    .logo-greece {
+        display: none;
+        background-position: top;
+    }
+
+    .logo-rethymno {
+        top: 5px;
+    }
+
+    .logo-crete {
+        width: 150px;
+    }
+
+    .hero {
+        background-image: url("images/Rethymno_mobile.jpg");
+        background-size: cover;
+        height: 100%;
+        /* width: 100%; */
+        padding-top: 10px;
+    }
+
+    .h1-hero {
+        font-size: 2.5rem;
+        background-color: none;
+    }
+
+    .h2-hero {
+        font-size: 1.3rem;
+        width: 320px;
+    }
+
+    .h3-activities {
+        font-size: 25px;
+        font-weight: 900;
+        color: rgb(1, 112, 112);
+        text-shadow: 0 0 1px black;
+        margin-top: 0;
+        padding: 35px 0;
+    }
+
+    .images-conteiner {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .beaches p,
+    .food p,
+    .city p {
+        width: 350px;
+        /* margin: 10px auto; */
+
+    }
+
+    .guide {
+        width: 350px;
+        height: 550px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto 30px;
+        border-bottom: 8px solid rgb(29, 27, 27);
+    }
+
+    .img-cretans {
+        padding: 15px 15px 5px 15px;
+    }
 }
