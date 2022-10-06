@@ -255,4 +255,8 @@ body {
     .img-cretans {
         padding: 15px 15px 5px 15px;
     }
+
+    .logo-arrow {
+        display: none;
+    }
 }
