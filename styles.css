@@ -44,10 +44,10 @@ body {
 
 
 .logo-arrow {
-    transform: scale(0.5);
+    transform: scale(0.7);
     position: absolute;
-    bottom: 5%;
-    right: 0%;
+    bottom: 8%;
+    right: 5%;
 }
 
 /* ---hero settigs--- */
@@ -80,7 +80,7 @@ body {
     font-weight: 900;
     color: #fff;
     text-shadow: 0 0 3px black;
-    width: 850px;
+    max-width: 850px;
     background-color: rgba(167, 255, 255, 0.6);
     padding: 6px 12px;
     border-radius: 8px;
@@ -121,8 +121,8 @@ body {
 .beach-logo,
 .food-logo,
 .rethymno-logo {
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     transition: 350ms;
 }
@@ -152,7 +152,7 @@ body {
 .guide {
     background-color: rgb(203, 253, 236);
     width: 550px;
-    height: 280px;
+    height: 290px;
     border-radius: 8px;
     display: flex;
     margin: 40px auto 30px;
@@ -161,6 +161,10 @@ body {
 
 .img-cretans {
     padding: 15px;
+}
+
+.pGuide {
+    padding: 5px 10px;
 }
 
 
@@ -244,12 +248,15 @@ body {
 
     .guide {
         width: 350px;
-        height: 550px;
+        height: 565px;
         border-radius: 8px;
         display: flex;
         flex-direction: column;
         margin: 40px auto 30px;
-        border-bottom: 8px solid rgb(29, 27, 27);
+    }
+
+    .pGuide {
+        padding: 10px;
     }
 
     .img-cretans {
@@ -258,5 +265,12 @@ body {
 
     .logo-arrow {
         display: none;
+    }
+
+    .beach-logo,
+    .food-logo,
+    .rethymno-logo {
+        width: 200px;
+        height: 200px;
     }
 }
