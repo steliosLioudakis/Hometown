@@ -124,13 +124,13 @@ body {
     width: 220px;
     height: 220px;
     border-radius: 50%;
-    transition: 350ms;
+    transition: 330ms;
 }
 
 .beach-logo:hover,
 .food-logo:hover,
 .rethymno-logo:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 /* .beaches,
